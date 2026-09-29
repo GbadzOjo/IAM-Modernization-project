@@ -11,7 +11,8 @@ Answer the following forensic questions using the AAA framework principles:
 3. Accounting/Forensics: Based on the source IP and timestamp, what anomaly or red flag stands out that suggests a security incident? (Hint: Think about when developers usually deploy code and where traffic originates). Based on the access time, it suggests a possible insider threat or a DevOps engineer's compromised account.
 
    
-Part 4: The Zero Trust Transition Strategy: Write a brief executive summary
+Part 4: The Zero Trust Transition Strategy: Write a brief executive summary on why the Old network firewall cannot protect the cloud infrastructure.
+
 The legacy Castle-and-Moat security model relied on a hard network perimeter—like our traditional firewall—to keep threats out while trusting everything inside. In cloud infrastructure, however, this physical perimeter no longer exists. Cloud assets, remote employees, and third-party SaaS integrations sit outside our traditional network boundary. Relying solely on network firewalls leaves critical visibility gaps and creates a single point of failure: once an attacker bypasses the perimeter (e.g., via stolen credentials or phishing), they gain unchecked lateral access to critical cloud data.
 Shifting to Identity as the Perimeter establishes identity, context, and access controls as our primary security boundary. Instead of trusting devices based on their network location, every user, workload, and request is continuously authenticated, authorized, and evaluated using strong Identity and Access Management (IAM), Multi-Factor Authentication (MFA), and Least Privilege policies. This eliminates implicit trust, neutralizes credential-based attacks, and ensures that even if a breach occurs, access is tightly restricted to specific resources, protecting our multi-cloud ecosystem from compromise.
 
